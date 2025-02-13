@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "Remove premium modal",
+  "version": "1.0",
+  "description": "Remove the modal that appears when you try to access a premium content",
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["https:/app.datacamp.com/*",
+        "https://projects.datacamp.com/*",
+        "https://campus.datacamp.com/*",
+      ],
+      "js": ["content.js"]
+    }
+  ]
+}
+
