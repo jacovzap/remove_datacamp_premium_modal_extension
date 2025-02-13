@@ -6,9 +6,9 @@
   "permissions": ["activeTab"],
   "content_scripts": [
     {
-      "matches": ["https:/app.datacamp.com/*",
+      "matches": ["https://app.datacamp.com/*",
         "https://projects.datacamp.com/*",
-        "https://campus.datacamp.com/*",
+        "https://campus.datacamp.com/*"
       ],
       "js": ["content.js"]
     }
