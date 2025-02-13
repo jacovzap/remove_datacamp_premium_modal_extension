@@ -1,15 +1,14 @@
-# Browser extension to remove datacamp premium modal restriction
+# DataCamp Premium Remover  
 
----
+Browser extension to remove the DataCamp Premium modal restriction.  
 
-## How to install it
+## Installation  
 
-### Firefox
+### Firefox  
+1. Open `about:addons` in the address bar.  
+2. Load the `datacamp_premium.xpi` file.  
 
-Go to: about:addons and charge the datacamp_premium.xpi file
-
-### Chrome
-
-1. Go to: chrome://extensions/
-2. Enable the developer mode
-3. Charge the datacamp_premium folder
+### Chrome  
+1. Go to `chrome://extensions/`.  
+2. Enable **Developer Mode**.  
+3. Load the `datacamp_premium` folder.  
